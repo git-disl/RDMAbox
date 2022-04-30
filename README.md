@@ -32,25 +32,38 @@ cd ~/RDMAbox/kernel/setup
 
 Assume that IP address is 100.10.10.0(client)/100.10.10.1(peer1)/100.10.10.2(peer2)/100.10.10.3(peer3) and disk partion is /dev/sda3
 
-(Modify portal list)
+(Modify portal list for Daemon nodes: repeat below for node 2 and 3 with their own address information)
 
-vi ~/RDMAbox/kernel/setup/portal.list
+vi ~/RDMAbox/kernel/setup/daemon_portal.list
 ```bash
-3 -> number of peer nodes
+3 -> number of daemon nodes
 100.10.10.1:9999 -> IPaddr and Port
 100.10.10.2:9999
 100.10.10.3:9999
 ```
 
-(Peer nodes: repeat this for peer2 and 3)
+(Run Daemon nodes at each node with their own address)
+
 ```bash
 cd ~/RDMAbox/kernel/setup/
 ~/ib_setup.sh 100.10.10.1
+
 cd ~/RDMAbox/kernel/daemon
 ./daemon -a 100.10.10.1 -p 9999 -i "/users/username/rdmabox/setup/portal.list"
 ```
 
-(Client node)
+(Modify portal list for client node)
+
+vi ~/RDMAbox/kernel/setup/bd_portal.list
+```bash
+100.10.10.0 -> my(i.e. client) address
+3 -> number of daemon nodes
+100.10.10.1:9999 -> IPaddr and Port
+100.10.10.2:9999
+100.10.10.3:9999
+```
+
+(Run Client node)
 ```bash
 cd ~/RDMAbox/kernel/setup/
 ~/ib_setup.sh 100.10.10.0
