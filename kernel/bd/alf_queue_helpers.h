@@ -1,5 +1,7 @@
 #pragma once
-/* This file is NOT for upstream submission!
+/* 
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
  *
  * Only one of the helper function will survive upstream submission,
  * and it will be added directly in alf_queue.h.

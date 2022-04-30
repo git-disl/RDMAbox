@@ -1,5 +1,8 @@
 /* Rax -- A radix tree implementation.
  *
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
  * Version 1.2 -- 7 February 2019
  *
  * Copyright (c) 2017-2019, Salvatore Sanfilippo <antirez at gmail dot com>

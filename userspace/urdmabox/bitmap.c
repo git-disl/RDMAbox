@@ -1,3 +1,8 @@
+/*
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ */
+
 #include "bitmap.h"
 
 uint64_t bitmap_find_next_zero_area(uint8_t *bitmap,uint64_t bmap_size) {

@@ -1,4 +1,8 @@
 /*
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
+ *
  * Copyright (c) 2013 Mellanox Technologies��. All rights reserved.
  *
  * This software is available to you under a choice of one of two licenses.

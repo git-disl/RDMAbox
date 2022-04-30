@@ -1,7 +1,11 @@
 #ifndef _LINUX_ALF_QUEUE_H
 #define _LINUX_ALF_QUEUE_H
-/* linux/alf_queue.h
+/* 
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
  *
+ * 
+ * linux/alf_queue.h
  * ALF: Array-based Lock-Free queue
  *
  * Queue properties

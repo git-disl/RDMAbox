@@ -1,5 +1,9 @@
 /*
- i Ram backed block device driver.
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
+ *
+ * Ram backed block device driver.
  *
  * Copyright (C) 2007 Nick Piggin
  * Copyright (C) 2007 Novell Inc.

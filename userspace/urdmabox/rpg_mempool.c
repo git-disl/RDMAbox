@@ -1,3 +1,8 @@
+/*
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
+*/
 #include <syslog.h>
 
 #include "debug.h"

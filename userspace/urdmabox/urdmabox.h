@@ -1,6 +1,9 @@
 #ifndef URDMABOX_H
 #define URDMABOX_H
 /*
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
  * Copyright (c) 2005 Ammasso, Inc. All rights reserved.
  * Copyright (c) 2006-2009 Open Grid Computing, Inc. All rights reserved.
  *

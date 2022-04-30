@@ -1,5 +1,6 @@
 /*
- * rpg, remote memory paging over RDMA
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
  *  
  * Stackbd
  * Copyright 2014 Oren Kishon

@@ -1,4 +1,7 @@
 /*
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
  * lib/alf_queue.c
  *
  * ALF: Array-based Lock-Free queue

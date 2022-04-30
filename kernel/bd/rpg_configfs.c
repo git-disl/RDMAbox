@@ -1,6 +1,7 @@
 /*
- * rpg, remote memory paging over RDMA
- * Copyright 2017 University of Michigan, Ann Arbor
+ * RDMAbox 
+ * Copyright (c) 2021 Georgia Institute of Technology
+ *
  *  
  * Copyright (c) 2013 Mellanox Technologies��. All rights reserved.
  *

@@ -2,6 +2,9 @@
 *
 * BSD 2-Clause License
 *
+* RDMAbox
+* Copyright (c) 2021 Georgia Institute of Technology
+*
 * Copyright (c) 2018, Taymindis Woon
 * All rights reserved.
 *

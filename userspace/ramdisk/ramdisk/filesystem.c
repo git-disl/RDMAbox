@@ -1,11 +1,10 @@
-/*********************************************************
+/* 
  * 
- *    	Program implementing an in-memory filesystem 
- *			(ie, RAMDISK) using FUSE.  
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
  *
- *********************************************************/
-
-/*................. Include Files .......................*/ 
+ *
+ */
 
 #define FUSE_USE_VERSION 34
 //#define FUSE_USE_VERSION 29

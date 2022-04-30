@@ -1,3 +1,8 @@
+/*
+ * RDMAbox
+ * Copyright (c) 2021 Georgia Institute of Technology
+ */
+
 #ifndef BITMAP_H
 #define BITMAP_H
 
