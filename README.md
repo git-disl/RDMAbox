@@ -49,7 +49,7 @@ cd ~/RDMAbox/kernel/setup/
 ~/ib_setup.sh 100.10.10.1
 
 cd ~/RDMAbox/kernel/daemon
-./daemon -a 100.10.10.1 -p 9999 -i "/users/username/rdmabox/setup/portal.list"
+./daemon -a 100.10.10.1 -p 9999 -i "../setup/portal.list"
 ```
 
 (Modify portal list for client node)
